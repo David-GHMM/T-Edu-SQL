@@ -10,7 +10,7 @@
 ### Запрос 2
 ```sql
   SELECT name, birthday, 
-  FLOOR(DATEDIFF(CURDATE(), STR_TO_DATE(birthday, '%d.%m.%Y')) / 365) as age
+    FLOOR(DATEDIFF(CURDATE(), STR_TO_DATE(birthday, '%d.%m.%Y')) / 365) as age
   FROM Staff;
 ```
 ### Запрос 3
